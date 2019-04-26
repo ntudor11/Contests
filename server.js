@@ -8,9 +8,9 @@ server.set('view engine', 'ejs');
 
 server.get('/', (req, res) => {
   res.render('index', {
-    content: 'hello express and <em>EJS</em> !'
+    content: 'Hello Server'
   });
-  //console.log('LOG: Hit the front page');
+  console.log('LOG: Hit the front page');
 });
 
 server.use('/api', apiRouter);
@@ -24,5 +24,5 @@ server.use(express.static('public'));
 // });
 
 server.listen(config.port, () => {
-  console.info('Express listening on port ', config.port);
+  console.info('Express listening on port', config.port);
 });
