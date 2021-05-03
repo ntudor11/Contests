@@ -30,7 +30,7 @@
     "babel-loader": "^8.0.6",
     "dot-prop": "^5.2.0",
     "ejs": "^3.0.1",
-    "elliptic": "^6.5.3",
+    "elliptic": "^6.5.4",
     "express": "^4.17.1",
     "handlebars": "^4.7.6",
     "kind-of": "^6.0.3",
